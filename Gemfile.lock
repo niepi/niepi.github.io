@@ -34,6 +34,7 @@ GEM
     liquid (2.5.1)
     maruku (0.6.1)
       syntax (>= 1.0.0)
+    newrelic_rpm (3.6.8.168)
     posix-spawn (0.3.6)
     pygments.rb (0.5.2)
       posix-spawn (~> 0.3.6)
@@ -54,5 +55,6 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 1.1.2)
+  newrelic_rpm
   rack-jekyll!
   unicorn
