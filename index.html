@@ -2,6 +2,14 @@
 layout: niepi
 title: thomas-niepraschk.net - Web-Entwickler, Konzepter, Dozent, Social Media Nerd und Vater
 ---
+<script type="text/javascript">
+    var userLang = navigator.language || navigator.userLanguage; 
+    if(userLang !== "de_DE" || userLang !== "de_AT" || userLang !== "de_CH" ){
+        window.location.replace("/en/");
+    } else{
+        window.location.replace("/de/");
+    }
+</script>
 <div id="container">
     <header>
         <div class="section head">
